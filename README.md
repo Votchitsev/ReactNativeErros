@@ -102,3 +102,13 @@ NativeFirebaseError: [messaging/unknown] The operation couldn’t be completed. 
 
 
 ```
+
+### No bundle URL present
+
+Ошибка возникает при запуске приложения на устройстве черех XCode.
+
+```
+2024-02-09 10:22:49.031048-0200 pmplite[14941:544603] [native] No bundle URL present.
+Make sure you're running a packager server or have included a .jsbundle file in your application bundle.
+```
+
