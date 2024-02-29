@@ -82,7 +82,9 @@ Timestamp: 2024-02-28T12:44:30+02:00
 
 Исправил путем включения параметра ```Automatically manage signing``` в ```signing & capabilities```.
 
-2. Ошибка возникает в момент вызова метода messaging().getToken()
+### Error: [messaging/unknown] The operation couldn’t be completed. No APNS token specified before fetching FCM Token
+Ошибка возникает в момент вызова метода messaging().getToken()
+
 ```
 Error: [messaging/unknown] The operation couldn’t be completed. No APNS token specified before fetching FCM Token
 NativeFirebaseError: [messaging/unknown] The operation couldn’t be completed. No APNS token specified before fetching FCM Token
