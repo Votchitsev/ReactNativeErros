@@ -78,6 +78,10 @@ Xcode 14.3.1 (21815) (Build 14E300c)
 Timestamp: 2024-02-28T12:44:30+02:00
 ```
 
+*Решение*
+
+Исправил путем включения параметра ```Automatically manage signing``` в ```signing & capabilities```.
+
 2. Ошибка возникает в момент вызова метода messaging().getToken()
 ```
 Error: [messaging/unknown] The operation couldn’t be completed. No APNS token specified before fetching FCM Token
