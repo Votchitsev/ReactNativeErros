@@ -103,6 +103,10 @@ NativeFirebaseError: [messaging/unknown] The operation couldn’t be completed. 
 
 ```
 
+*Решение*
+
+При использовании эмулятора должно быть выполнено условие по процессору ```silicon chip``` (это предположение). 
+
 ### No bundle URL present
 
 Ошибка возникает при запуске приложения на устройстве черех XCode.
